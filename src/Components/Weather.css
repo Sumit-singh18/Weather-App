@@ -1,0 +1,34 @@
+*{
+    background-image: url('../Assest/photo-1580193483760-d0ef2abaa348.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+    
+
+}
+.Head{
+    font-size: 40px;
+    margin-top: 2%;
+}
+
+.Input{
+    font-size:18px;
+    margin: 7%;
+}
+input{
+    font-size:22px;
+    border:1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.City{
+    font-size:55px;
+    font-family:cursive;
+    margin-left: 5%;
+}
+.temp1,.temp2{
+    display: inline;
+    
+}
