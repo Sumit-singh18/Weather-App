@@ -14,7 +14,7 @@
 
 .Input{
     font-size:18px;
-    margin: 7%;
+    margin: 4%;
 }
 input{
     font-size:22px;
@@ -24,11 +24,20 @@ input{
     
 }
 .City{
-    font-size:55px;
-    font-family:cursive;
-    margin-left: 5%;
+    font-size:80px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top:4% ;
 }
-.temp1,.temp2{
+.temp1,.temp2,.temp3{
     display: inline;
-    
+    margin: 10px;
+}
+.Temp{
+    border: 2px solid seagreen;
+    width: fit-content;
+    margin-left:40%;
+    font-size: 40px;
+}
+.Descrptn{
+font-size: 30px;
 }
