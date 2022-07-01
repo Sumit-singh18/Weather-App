@@ -1,43 +1,43 @@
-*{
-    background-image: url('../Assest/photo-1580193483760-d0ef2abaa348.jpeg') ;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-
-    
-
+* {
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("../Assest/Severe-Weather-Wallpaper-24.jpg");
 }
-.Head{
-    font-size: 40px;
-    margin-top: 2%;
+.Head {
+  font-size: 40px;
+  margin-top: 2%;
 }
 
-.Input{
-    font-size:18px;
-    margin: 4%;
+.Input {
+  font-size: 18px;
+  margin: 4%;
 }
-input{
-    font-size:22px;
-    border:1px solid black;
-    border-radius: 15px;
-    text-align: center;
-    
+input {
+  font-size: 22px;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
 }
-.City{
-    font-size:80px;
-    font-family:'Times New Roman', Times, serif;
-    margin-top:4% ;
+.City {
+  font-size: 80px;
 }
-.temp1,.temp2,.temp3{
-    display: inline;
-    margin: 10px;
+.temp1,
+.temp2,
+.temp3 {
+  display: inline;
+  margin: 10px;
 }
-.Temp{
-    border: 2px solid seagreen;
-    width: fit-content;
-    margin-left:40%;
-    font-size: 40px;
+.Temp {
+  width: fit-content;
+  margin: 75px;
+  margin-left: 23%;
+  font-size: 40px;
 }
-.Descrptn{
-font-size: 30px;
+.Descrptn {
+  font-size: 30px;
+}
+.Main-temp {
+  font-size: 30px;
 }

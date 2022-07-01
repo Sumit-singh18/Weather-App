@@ -19,7 +19,7 @@ const Weather = () => {
   };
 
   return (
-    <div className="Main">
+    <div >
       <div className="Head">Weather App</div>
 
       <div className="Input">
@@ -32,26 +32,27 @@ const Weather = () => {
         />
       </div>
 
-      {!city ? (
-        <p>Data not Found</p>
-      ) : (
-        // {city.main ? city.main.temp : null}
-        // {city.main ? city.main.feels_like: null}
-        // {city.wind ? city.wind.speed : null}
-        <div>
-          <div className="Time">{moment().format("LLLL")}</div>
-          {/* {city.name} */}
-          <p className="City">Pune</p>
-          <div className="Temp">
-            <div className="temp1"> 55°C</div>
-            <div className="temp2"> 45°C</div>
-            <div className="temp3">555MPH </div>
-          </div>
-          <div className="Descrptn">
-            {/* {city.weather ? <p>{city.weather[0].description}</p> : null} */}
-            Overcast clouds
-          </div>
+      {city.sys ? 
+      (
+        <div >
+        <div className="Time">{moment().format("LLLL")}</div>
+         <p className="Main-temp"> {city.name} , {city.sys.country}</p>
+        {city.main ? <div className="City"> { city.main.temp}°C </div> : null}
+
+        <div className="Temp">
+
+         { city.main? <div className="temp1"> Humidity : {city.main.humidity}% |</div>:null}
+          {city.main?<div className="temp2">Feels Like : {city.main.feels_like}°C |</div>:null}
+          {city.wind ?<div className="temp3">Wind Speed : {city.wind.speed}MPH </div>:null}
         </div>
+        <div className="Descrptn">
+          {city.weather ? <p>{city.weather[0].description.toUpperCase()}</p> : null}
+        </div>
+      </div>
+      ) : (
+        <p></p>
+
+       
       )}
     </div>
   );
