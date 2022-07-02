@@ -3,7 +3,8 @@
   background-size: 100%;
   background-attachment: fixed;
   font-family: "Times New Roman", Times, serif;
-  background-image: url("../Assest/Severe-Weather-Wallpaper-24.jpg");
+  background-image: url("../Assest//night-road-blue-weather-forest-stars-4k-54.jpg");
+  color: white;
 }
 .Head {
   font-size: 40px;
@@ -16,10 +17,19 @@
 }
 input {
   font-size: 22px;
-  border: 1px solid black;
+  border: 2px solid white;
   border-radius: 15px;
   text-align: center;
+  color: white;
+  text-transform: capitalize
+
 }
+::placeholder { 
+  color: white;
+  opacity: 1; 
+}
+
+
 .City {
   font-size: 80px;
 }

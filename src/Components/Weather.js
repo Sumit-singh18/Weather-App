@@ -37,13 +37,13 @@ const Weather = () => {
         <div >
         <div className="Time">{moment().format("LLLL")}</div>
          <p className="Main-temp"> {city.name} , {city.sys.country}</p>
-        {city.main ? <div className="City"> { city.main.temp}°C </div> : null}
+        {city.main ? <div className="City"> { Math.round(city.main.temp)}°C </div> : null}
 
         <div className="Temp">
 
          { city.main? <div className="temp1"> Humidity : {city.main.humidity}% |</div>:null}
-          {city.main?<div className="temp2">Feels Like : {city.main.feels_like}°C |</div>:null}
-          {city.wind ?<div className="temp3">Wind Speed : {city.wind.speed}MPH </div>:null}
+          {city.main?<div className="temp2">Feels Like : {Math.round(city.main.feels_like)}°C |</div>:null}
+          {city.wind ?<div className="temp3">Wind Speed : {city.wind.speed} MPH </div>:null}
         </div>
         <div className="Descrptn">
           {city.weather ? <p>{city.weather[0].description.toUpperCase()}</p> : null}
