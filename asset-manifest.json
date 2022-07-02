@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Weather-App/static/css/main.348b72f8.css",
+    "main.js": "/Weather-App/static/js/main.46d9e141.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Weather-App/static/js/787.28cb0dcd.chunk.js",
+    "static/media/night-road-blue-weather-forest-stars-4k-54.jpg": "/Weather-App/static/media/night-road-blue-weather-forest-stars-4k-54.dde924a25c7c1d02671f.jpg",
+    "static/media/logo.svg": "/Weather-App/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Weather-App/index.html",
+    "main.348b72f8.css.map": "/Weather-App/static/css/main.348b72f8.css.map",
+    "main.46d9e141.js.map": "/Weather-App/static/js/main.46d9e141.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Weather-App/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.348b72f8.css",
+    "static/js/main.46d9e141.js"
+  ]
+}
